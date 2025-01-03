@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background: linear-gradient(to bottom, black, rgb(36, 36, 36));
+}
+.links {
+  float: right;
+  align-items: self-start;
+  display: flex;
+  flex-direction: row;
+}
+.buttons {
+  background-color: transparent;
+  border: none;
+  position: relative;
+}
+a {
+  background-color: transparent;
+  border: none;
+  color: rgb(145, 145, 145);
+  font-size: medium;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: bold;
+}
+a:hover {
+  background-color: transparent;
+  color: white;
+  text-decoration: underline rgb(39, 44, 151);
+}
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 20px;
+  align-items: center;
+}
+.address {
+  background-color: rgba(158, 158, 158, 0.12);
+  color: rgb(189, 189, 189);
+  width: 45%;
+
+  padding: 20px;
+
+  height: 400px;
+  margin-left: 15px;
+}
+h2 {
+  color: rgb(227, 227, 227);
+}
+.h2:hover {
+  color: white;
+}
+.content {
+  margin-top: 50px;
+  flex: 1;
+  color: white;
+  margin-left: 20px;
+  padding: 20px;
+}
+.form {
+  background-color: rgba(158, 158, 158, 0.12);
+  color: rgb(208, 206, 206);
+  padding: 20px;
+  height: 400px;
+  width: 45%;
+  margin-right: 15px;
+}
+.form:hover {
+  background-color: rgba(158, 158, 158, 0.12);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  height: 400px;
+  width: 45%;
+}
+
+input[type="text"] {
+  margin-top: 5px;
+  background-color: transparent;
+  border: 1px solid rgb(255, 248, 248);
+  color: white;
+  width: 95%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+input[type="text"]:hover {
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
+  width: 95%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px;
+}
+textarea {
+  margin-top: 5px;
+  background-color: transparent;
+  border: 1px solid rgb(176, 176, 176);
+  color: white;
+  width: 95%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+textarea:hover {
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
+  width: 95%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px;
+}
+button {
+  background-color: rgb(28, 28, 28);
+  color: rgb(176, 176, 176);
+  padding: 10px;
+  border: black;
+  margin-right: 50px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: black;
+  margin-right: 50px;
+  font-style: bold;
+  transition: 0.5s;
+}
